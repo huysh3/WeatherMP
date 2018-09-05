@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "server": "nodemon ./server/index.js"
+  },
+  "nodemonConfig": {
+    "ignore": ["test/*", "book/*", "client/*", "bin/*", "node_modules", "dist/*", "package.json"],
+    "delay": "1000"
+  }
+}
